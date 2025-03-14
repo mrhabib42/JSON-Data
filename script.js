@@ -87,6 +87,8 @@ function showAll() {
 
 showAll();
 
+//Search Functionality
+
 let search = document.getElementById("searchControl");
 let searchResult = "";
 
