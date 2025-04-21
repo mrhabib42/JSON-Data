@@ -41,6 +41,7 @@ let products = JSON.parse(data);
 let card = document.getElementById("card");
 
 function allProducts(dataShow) {
+    card.innerHTML = ""; 
   for (var a = 0; a < dataShow.length; a++) {
     card.innerHTML += ` 
           <div class="col-md-4 mt-4">
